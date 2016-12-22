@@ -9,9 +9,17 @@
 $: or $LOAD_PATH
 
 class ShoppingList
-  attr_reader :items
+  attr_accessor :items
 
   def initialize(*items)
     @item = items
   end
+
+  def in
+    @item
+  end
 end
+
+a = ShoppingList.new(12,3,4,5,5)
+
+puts a.in.inspect
