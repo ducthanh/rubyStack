@@ -63,14 +63,6 @@ rescue => err
   logger.fatal(err)
 end
 
+# Kernel gets
 
-
-
-
-
-
-
-
-
-
-
+# gets
