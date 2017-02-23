@@ -7,3 +7,7 @@ Dir.empty?('directory_with_files') # => false
 
 File.empty?('contains_text.txt')   # => false
 File.empty?('empty.txt')           # => true
+
+# replacement for Binding.pry
+
+binding.irb
