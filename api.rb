@@ -21,21 +21,22 @@ class A_api
     auth ||= AUTH_DEFAULT_VALUES
     a_type = @method.to_sym
 
-
     case a_type
       when :get
+        get_digest(auth)
       when :post
+        post_digest(auth)
     end
 
   end
 
   private
 
-  def get_digest(a_type, auth)
+  def get_digest(auth)
 
   end
 
-  def post_digest(a_type, auth)
+  def post_digest(auth)
 
   end
 
